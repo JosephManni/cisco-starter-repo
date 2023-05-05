@@ -6,7 +6,7 @@ import { Line } from "react-chartjs-2";
 
 
 const LineChart = () => {
-  const labels = [];
+const labels = [];
 const dataPoints = [];
 
 // Create labels and data points
@@ -35,7 +35,7 @@ const data = {
   tension: 1.5,
 };
   return (
-    <div className="linechart">
+    <div className="exhibit-chart">
       <Line data={data} />
     </div>
   );
