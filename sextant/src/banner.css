@@ -5,8 +5,10 @@
 }
 
 .banner h1 {
-    padding: 1rem;
-    /* border-color: red;
-    border-style: solid; */
-    border-radius: 5px;
+    padding: 1rem 4rem;
+    border-color: red;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
