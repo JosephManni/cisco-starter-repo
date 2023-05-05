@@ -6,7 +6,7 @@ import PylonCon from './PlyonCon';
 
 class Exhibit extends Component {
   render() {
-    const { exhibitTitle, url } = this.props;
+    const { exhibitTitle, IPv4, IPv6 } = this.props;
     var latency = 0;
     const color = latency < 99 ? 'green' : latency < 199 ? 'yellow' : 'red'; // Change the thresholds and colors as needed
     return (
@@ -16,7 +16,7 @@ class Exhibit extends Component {
           <p style={{ color }}>Latency: <PylonCon></PylonCon> (m/s)</p>
         </div>
         <LineChart></LineChart>
-        <IPComponent url={url}></IPComponent>
+        <IPComponent IPv4={IPv4} IPv6={IPv6}></IPComponent>
       </div>
     );
   }

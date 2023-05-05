@@ -55,12 +55,8 @@
 }
 
 .user-ip {
-    color: rgb(51, 135, 99);
+    color: rgb(172, 157, 184);
     text-align: left;
     font-size: 0.75rem;
     padding: 1rem;
-}
-
-.pylon-con {
-    color: hotpink;
 }
